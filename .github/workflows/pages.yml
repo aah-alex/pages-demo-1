@@ -5,7 +5,7 @@ name: Deploy static content to Pages
 # Runs on pushes targeting the default branch
 on:
   pull_request:
-    types: [opened, reopened]
+    types: [opened, reopened, synchronized]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
