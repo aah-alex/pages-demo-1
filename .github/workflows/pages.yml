@@ -33,3 +33,4 @@ jobs:
         with:
           folder: . # The folder the action should deploy.
           target-folder: ${{ github.head_ref }}
+
